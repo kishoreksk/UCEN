@@ -1,0 +1,11 @@
+.card {
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    font-size: large;
+}
+
+.card-img {
+    height: 250px;
+    width: 200px;
+}

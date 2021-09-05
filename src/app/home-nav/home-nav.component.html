@@ -1,0 +1,112 @@
+<div class="card">
+    <img src="../../assets/head.jpg" alt="img">
+
+</div>
+<div class="card">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" [routerLink]="['/home']">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Administration
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" [routerLink]="['/vc']">Vice Chancellor</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['/vc']">Registrar</a></li>
+                        <li><a class="dropdown-item" [routerLink]="['/vc']">Director</a></li>
+
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" [routerLink]="['/vc']">Dean</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" [routerLink]="['/departments']" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Departments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Civil Engineering</a></li>
+                        <li><a class="dropdown-item" href="#">Mechanical Engineering</a></li>
+                        <li><a class="dropdown-item" href="#">EEE</a></li>
+                        <li><a class="dropdown-item" href="#">ECE</a></li>
+                        <li><a class="dropdown-item" href="#">CSE</a></li>
+                        <li><a class="dropdown-item" href="#">IT</a></li>
+                        <li><a class="dropdown-item" href="#">Science and Humanities</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" [routerLink]="['/placement']" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Placement
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Placement Officer</a></li>
+                        <li><a class="dropdown-item" href="#">Placement Records and Activities</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" [routerLink]="['/research']" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Research
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Funded Projects</a></li>
+                        <li><a class="dropdown-item" href="#">Activities</a></li>
+
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" [routerLink]="['/facilities']" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Facilities
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Library</a></li>
+                        <li><a class="dropdown-item" href="#">Hostel </a></li>
+                        <li><a class="dropdown-item" href="#">Health Center </a></li>
+                        <li><a class="dropdown-item" href="#">Students Akshaya Canteen</a></li>
+                        <li><a class="dropdown-item" href="#">Student Stationery Store</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" [routerLink]="['/others']" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Others
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Clubs</a></li>
+                        <li><a class="dropdown-item" href="#">Sports </a></li>
+                        <li><a class="dropdown-item" href="#">National Service Scheme </a></li>
+                        <li><a class="dropdown-item" href="#">Othe Activities</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/gallery']">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/contact']">Contact</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+</div>

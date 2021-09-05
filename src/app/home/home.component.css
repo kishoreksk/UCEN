@@ -1,0 +1,55 @@
+.card-2 {
+    padding: 0px;
+    background-color: rgb(216, 72, 72);
+    align-items: center;
+    margin-top: 70px;
+    flex: 1 1 auto;
+}
+
+.card-body {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.card-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+hr {
+    height: 10px;
+    background-color: rgba(8, 8, 8, 0.993);
+    border: 1px;
+}
+
+.footer1 {
+    background-color: #262626;
+}
+
+.h5 {
+    justify-self: self-start;
+    margin-bottom: 20px;
+}
+
+.p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.img-fluid {
+    height: 380px;
+    width: 500px;
+}

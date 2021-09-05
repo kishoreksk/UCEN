@@ -1,0 +1,32 @@
+.img {
+    flex: 1 1 auto;
+    height: 400px;
+}
+
+.navbar-nav,
+.container-fluid {
+    font-size: large;
+}
+
+.a {
+    padding-left: 30px;
+}
+
+.example-container {
+    width: 500px;
+    height: 500px
+}
+
+.example-sidenav-content {
+    display: flex;
+    height: 100%;
+}
+
+.example-sidenav {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.card1 {
+    height: 1000px;
+}
